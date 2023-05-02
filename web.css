@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 107, 71, 0.692)), to(rgba(2, 2, 2, 0.829)));
+  background: linear-gradient(to bottom, rgba(75, 107, 71, 0.692), rgba(2, 2, 2, 0.829));
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+header > div {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dbd9d9;
+  position: relative;
+}
+
+header > div input {
+  width: 265px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 0 0 10px;
+  border-right: 1px solid black;
+}
+
+header > div img {
+  position: absolute;
+  right: 5px;
+  width: 30px;
+  height: 100%;
+}
+
+header > div .linia {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  right: 7px;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+/*# sourceMappingURL=web.css.map */
